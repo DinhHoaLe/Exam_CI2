@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Exam_CI2/static/css/main.b48f568e.css",
-    "main.js": "/Exam_CI2/static/js/main.c9e31d31.js",
+    "main.css": "/Exam_CI2/static/css/main.babb25cb.css",
+    "main.js": "/Exam_CI2/static/js/main.a5b66062.js",
     "static/js/453.2295a44f.chunk.js": "/Exam_CI2/static/js/453.2295a44f.chunk.js",
     "static/media/spy_carousel 1.png": "/Exam_CI2/static/media/spy_carousel 1.a8d1b9addb5367aafb53.png",
     "static/media/One-piece 1.png": "/Exam_CI2/static/media/One-piece 1.72b672d2be306cca2fef.png",
@@ -10,13 +10,16 @@
     "static/media/attackontitan 1.png": "/Exam_CI2/static/media/attackontitan 1.a88f80824d4245a64510.png",
     "static/media/captsu_card 1.png": "/Exam_CI2/static/media/captsu_card 1.2ae4e7765d99cfd1f24f.png",
     "static/media/spy_card 1.png": "/Exam_CI2/static/media/spy_card 1.570651529079cb4be58a.png",
+    "static/media/revicons.eot": "/Exam_CI2/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Exam_CI2/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/Exam_CI2/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Exam_CI2/index.html",
-    "main.b48f568e.css.map": "/Exam_CI2/static/css/main.b48f568e.css.map",
-    "main.c9e31d31.js.map": "/Exam_CI2/static/js/main.c9e31d31.js.map",
+    "main.babb25cb.css.map": "/Exam_CI2/static/css/main.babb25cb.css.map",
+    "main.a5b66062.js.map": "/Exam_CI2/static/js/main.a5b66062.js.map",
     "453.2295a44f.chunk.js.map": "/Exam_CI2/static/js/453.2295a44f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b48f568e.css",
-    "static/js/main.c9e31d31.js"
+    "static/css/main.babb25cb.css",
+    "static/js/main.a5b66062.js"
   ]
 }
