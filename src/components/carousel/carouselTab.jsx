@@ -1,6 +1,6 @@
 import React from "react";
 
-const Carousel = ({ img, movieName, description }) => {
+const CarouselTab = ({ img, movieName, description }) => {
   return (
     <div className="relative w-full h-[25rem] overflow-hidden">
       <img src={img} alt="" className="w-full object-cover"/>
@@ -17,4 +17,4 @@ const Carousel = ({ img, movieName, description }) => {
   );
 };
 
-export default Carousel;
+export default CarouselTab;

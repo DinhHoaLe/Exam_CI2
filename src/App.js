@@ -1,8 +1,29 @@
 import React, { useState } from "react";
 import Release from "./components/release/release";
 import NavBar from "./components/navBar/navBar";
-import Carousel from "./components/carousel/carousel";
+import CarouselTab from "./components/carousel/carouselTab";
 import { data } from "./components/data";
+import 'react-multi-carousel/lib/styles.css';
+import Carousel from 'react-multi-carousel';
+
+const responsive = {
+  superLargeDesktop: {
+    breakpoint: { max: 4000, min: 1024 },
+    items: 6,
+  },
+  desktop: {
+    breakpoint: { max: 1024, min: 768 },
+    items: 3,
+  },
+  tablet: {
+    breakpoint: { max: 768, min: 464 },
+    items: 2,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
 
 const App = () => {
   let [active, setActive] = useState({
@@ -33,7 +54,7 @@ const App = () => {
         <span className="poppins text-[22px] text-[#868686]">
           What are you gonna watch today?
         </span>
-        {<Carousel
+        {<CarouselTab
           img={active.img}
           movieName={active.movieName}
           description={active.description}
@@ -42,20 +63,20 @@ const App = () => {
           <h1 className="poppins font-semibold text-[32px] text-white">
             New Release
           </h1>
-          <div className="gap-[1.8750rem] flex ">
-            {data.map((information) => {
-               return (
-                <Release
-                  activeView={getView}
-                  key={information.id}
-                  id={information.id}
-                  movieName={information.movieName}
-                  episode={information.episode}
-                  img={information.image}
-                />
-              );
-            })}
-          </div>
+            <Carousel responsive={responsive}>
+              {data.map((information) => {
+                  return (
+                  <Release
+                    activeView={getView}
+                    key={information.id}
+                    id={information.id}
+                    movieName={information.movieName}
+                    episode={information.episode}
+                    img={information.image}
+                  />
+                );
+              })}
+            </Carousel>
         </div>
       </div>
     </div>
